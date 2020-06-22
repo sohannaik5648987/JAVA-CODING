@@ -2,15 +2,15 @@ import java.io.*;
   
 class GFG { 
       
-    /* Iterative Function to calculate 
+   
        (x^y)%p in O(log y) */
     static int power(int x, int y, int p) 
     { 
-        // Initialize result 
+       
         int res = 1;      
          
-        // Update x if it is more   
-        // than or equal to p 
+         
+        
         x = x % p;  
   
        if (x == 0) return 0; // In case x is divisible by p;    
@@ -30,7 +30,7 @@ class GFG {
         return res; 
     } 
   
-    // Driver Program to test above functions 
+   
     public static void main(String args[]) 
     { 
         int x = 2; 
